@@ -31,10 +31,10 @@ def fizzbuzz_printer
 
 end
 
-def reverse_string(string)
+def reverse_string(str)
   # your code here
-  split_string = string.split("")
+  split_str = str.split("")
   reversed = []
-  string.size.times { reversed << split_string.pop }
+  str.size.times { reversed << split_str.pop }
   reversed.join
 end
